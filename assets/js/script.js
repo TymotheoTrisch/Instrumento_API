@@ -32,16 +32,6 @@ function createInstrumentoListItem(instrumento) {
     <img src="${instrumento.imagem}" alt="Instrumento" class="imagem">
     `;
 
-    // <div class="info-instrumento">
-    //     <input class="id" hidden></input>
-    //     <h1><span>Nome: </span>${instrumento.nome}</h1>
-    //     <h2><span>Família: </span>${instrumento.familia}</h2>
-    //     <h2><span>Tipo: </span>${instrumento.tipo}</h2>
-    //     <h2><span>Material: </span>${instrumento.materia}</h2>
-    //     <h2><span>Origem: </span>${instrumento.origem}</h2>
-    //     <p><span>Descrição: </span>${instrumento.descricao}</p>
-    // </div>
-
     const imagem = div.querySelector('.imagem');
     imagem.addEventListener('click', () => {
         infoInstrumento.classList.add('active');
@@ -112,8 +102,6 @@ function adicionar() {
                     
                     id++;
                 }
-                // console.log(instrumento, id);
-                //     console.log(data);
             });
             const name = document.getElementById('nome').value
             const image = document.getElementById('imagem').value
@@ -123,7 +111,6 @@ function adicionar() {
             const origin = document.getElementById('origem').value
             const describe = document.getElementById('descricao').value
             
-        // console.log(id, name, image, family, type, material, origin, describe);
             
 
 
@@ -142,7 +129,6 @@ function adicionar() {
                     return res.json();
                 })
                 .then(() => {
-                    // formCreate.classList.remove('active')
                     listInstrumentos();
                 })
                 .catch(error => console.error(error.message));
@@ -167,7 +153,6 @@ function editar(instrumento) {
 
 function update() {
     const id = document.getElementById('id').value
-    // console.log(id);
     const name = document.getElementById('unome').value
     const image = document.getElementById('uimagem').value
     const family = document.getElementById('ufamilia').value
