@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Instrumentos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Galeria</h1>
+        <button type="button" onclick="criar()" class="btn-criar">Criar novo Instrrumento</button>
+    </header>
+
+    <main class="set-margin">
+        <section class="galeria-instrumentos">
+            <!--
+            <div class="container">
+                <img src="./assets/img/violino.jpg" alt="Instrumento">
+                <div class="info-instrumento">
+                    <input class="id" hidden></input>
+                    <h1><span>Nome: </span>Violino</h1>
+                    <h2><span>Família: </span>Cordas</h2>
+                    <h2><span>Tipo: </span>Corda Friccionada</h2>
+                    <h2><span>Material: </span>Madeira</h2>
+                    <h2><span>Origem: </span>Itália</h2>
+                    <p><span>Descrição: </span>O violino é um instrumento de
+                        cordas friccionadas, feito de madeira. Originário da
+                        Itália, é conhecido por sua capacidade expressiva e é
+                        amplamente utilizado em diversos gêneros musicais.</p>
+                </div>
+            </div> -->
+
+        </section>
+
+        <section class="info-instrumento">
+            <div class="modal-instrumento">
+                <div class="voltar">
+                    <i class='bx bx-arrow-back' style='color:#4D4D4D'></i>
+                </div>
+                <div class="nome-inst">
+                    <h1 class="nome"></h1>
+                </div>
+                <div class="img">
+                    <img src="" alt="" class="imagem">
+                </div>
+
+                <div class="detalhes">
+                    <input class="id" hidden></input>
+                    <div class="lado-dir">
+                        <p class="familia"></p>
+                        <p class="tipo"></p>
+                    </div>
+                    <div class="lado-esq">
+                        <p class="material"></p>
+                        <p class="origem"></p>
+                    </div>
+                    <div class="descricao">
+                        <p class="descricao"></p>
+                    </div>
+                </div>
+                <div class="buttons-ed-ex">
+                    <button type="button" class="btn-editar">Editar</button>
+                    <button type="button" class="btn-excluir">Excluir</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-instrumento">
+            <div class="modal">
+
+                <h2>Formulário</h2>
+
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="url" id="imagem" placeholder="Link imagem" required>      
+                <input type="text" id="familia" placeholder="Família" required>
+                <input type="text" id="tipo" placeholder="Tipo" required>
+                <input type="text" id="material" placeholder="Material" required>
+                <input type="text" id="origem" placeholder="Origem" required>
+                <textarea id="descricao" rows="3" cols="50" placeholder="Descreva o instrumento"></textarea>
+
+                <div class="buttons">
+                    <input type="button" value="cancelar" id="btn-cancelar">
+                    <input type="submit" value="Adicionar" onclick="adicionar()">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="form-edit-instrumento">
+            <div class="modal">
+
+                <h2>Editar Formulário</h2>
+
+                <input type="text" hidden id="id">
+                <input type="text" id="unome" required>
+                <input type="url" id="uimagem" required>
+                <input type="text" id="ufamilia" required>
+                <input type="text" id="utipo" required>
+                <input type="text" id="umaterial" required>
+                <input type="text" id="uorigem" required>
+                <textarea id="udescricao" rows="3" cols="50"></textarea>
+
+                <div class="buttons">
+                    <input type="reset" value="Cancelar" id="btn-ucancelar">
+                    <input type="button" value="Editar" onclick="update()">
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+{
+  "Instrumentos": [
+    {
+      "id": 5,
+      "nome": "Bateria",
+      "imagem": "https://img.freepik.com/fotos-gratis/kit-de-bateria-em-um-fundo-escuro-com-iluminacao-de-palco-copie-o-espaco_169016-14183.jpg",
+      "familia": "Percussão",
+      "tipo": "Membranofone",
+      "material": "Metal e plástico",
+      "origem": "Estados Unidos",
+      "descricao": "A bateria é um instrumento de percussão composto por membranofones, feitos principalmente de metal e plástico. Originária dos Estados Unidos, é a base rítmica em uma variedade de estilos musicais, do rock ao funk e ao jazz."
+    },
+    {
+      "id": 6,
+      "nome": "Saxofone",
+      "imagem": "https://www.escolademusicadonaldo.com.br/admin/img/fotos/150178130133saxofone_t_c.jpg",
+      "familia": "Sopros",
+      "tipo": "Aerofone",
+      "material": "Metal",
+      "origem": "Bélgica",
+      "descricao": "O saxofone é um instrumento de sopro da família dos metais, feito de metal. Originário da Bélgica, é reconhecido por sua sonoridade única e versátil, sendo utilizado em uma variedade de estilos musicais, do jazz ao pop e ao rock."
+    },
+    {
+      "id": 7,
+      "nome": "Violoncelo",
+      "imagem": "https://i0.wp.com/www.sabra.org.br/site/wp-content/uploads/2017/10/breve-historia-do-naipe-de-cordas-20170920155615.jpg.jpg?fit=750%2C511&ssl=1",
+      "familia": "Cordas",
+      "tipo": "Corda friccionada",
+      "material": "Madeira",
+      "origem": "Itália",
+      "descricao": "O violoncelo é um instrumento de cordas friccionadas, feito de madeira. Originário da Itália, é conhecido por sua rica sonoridade e é frequentemente utilizado em música clássica, mas também em estilos contemporâneos."
+    },
+    {
+      "id": 8,
+      "nome": "Trompete",
+      "imagem": "https://i0.wp.com/www.sabra.org.br/site/wp-content/uploads/2021/05/trompete-conheca-esse-instrumento-que-faz-parte-da-historia-da-humanidade-20210203092956.jpg.jpg?fit=800%2C534&ssl=1",
+      "familia": "Metais",
+      "tipo": "Aerofone",
+      "material": "Metal",
+      "origem": "Alemanha",
+      "descricao": "O trompete é um instrumento de sopro da família dos metais, feito de metal. Originário da Alemanha, é conhecido por sua sonoridade brilhante e poderosa, sendo utilizado em uma variedade de gêneros musicais, do clássico ao jazz e à música popular."
+    },
+    {
+      "id": 9,
+      "nome": "Harpa",
+      "imagem": "https://evidenciasnahistoria.wordpress.com/wp-content/uploads/2017/08/curso-online-de-harpa.jpg?w=640",
+      "familia": "Cordas",
+      "tipo": "Corda pulsada",
+      "material": "Madeira e metal",
+      "origem": "Mesopotâmia",
+      "descricao": "A harpa é um instrumento de cordas pulsadas, feito de madeira e metal. Originária da Mesopotâmia, é conhecida por sua beleza visual e sonora, sendo utilizada tanto em música clássica quanto em estilos folclóricos e contemporâneos."
+    },
+    {
+      "id": 10,
+      "nome": "Gaita de boca",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0M1tWk_ySIXQdGKYP-B20dezNmBT0-rby9e8inQokOAOxMjx6sofkq21io-F2hx81eY&usqp=CAU",
+      "familia": "Sopros",
+      "tipo": "Aerofone",
+      "material": "Metal e plástico",
+      "origem": "China",
+      "descricao": "A gaita de boca é um instrumento de sopro, um aerofone, feito de metal e plástico. Originária da China, é conhecida por sua portabilidade e é utilizada em uma variedade de estilos musicais, do blues ao folk e ao rock."
+    }
+  ]
+}
